@@ -200,7 +200,7 @@ p {
   align-items: center;justify-content: center;
 }
  .card .img {
-  background-image: url(/images/ieeeboard.jpg);
+  background-image: url(ieeeboard.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -216,7 +216,7 @@ p {
   transition: all 0.5s;
  }
  .card .img2 {
-  background-image: url(/images/me.jpg);
+  background-image: url(me.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -232,7 +232,7 @@ p {
   transition: all 0.5s;
  }
  .card .img3 {
-  background-image: url(/images/ieeeboard.jpg);
+  background-image: url(ieeeboard.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -248,7 +248,7 @@ p {
   transition: all 0.5s;
  }
  .card .img4 {
-  background-image: url(/images/ieeeboard.jpg);
+  background-image: url(ieeeboard.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -264,7 +264,7 @@ p {
   transition: all 0.5s;
  }
  .card .img5 {
-  background-image: url(/images/hanan.png);
+  background-image: url(hanan.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -280,7 +280,7 @@ p {
   transition: all 0.5s;
  }
  .card .img6 {
-  background-image: url(/images/mulla.png);
+  background-image: url(mulla.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -296,7 +296,7 @@ p {
   transition: all 0.5s;
  }
  .card .img7 {
-  background-image: url(/images/hendo.jpg);
+  background-image: url(hendo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -312,7 +312,7 @@ p {
   transition: all 0.5s;
  }
  .card .img8 {
-  background-image: url(/images/fatma.jpg);
+  background-image: url(fatma.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
