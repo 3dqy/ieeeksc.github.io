@@ -1,4 +1,4 @@
-const darkModeToggle = document.getElementById('dark-mode');
+    const darkModeToggle = document.getElementById('dark-mode');
     const body = document.body;
 
     darkModeToggle.addEventListener('change', () => {
@@ -23,4 +23,8 @@ const darkModeToggle = document.getElementById('dark-mode');
             document.documentElement.scrollTop = 0;  // For Chrome, Firefox, IE, and Opera
         });
     });
+
+    function redirectToLink(link) {
+        window.location.href = link;
+    }
     
