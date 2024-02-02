@@ -32,16 +32,23 @@ color: #050A30; font-size: 2vmax;
 color: #cae8ff;
 }
 .container h2 {
- color: #050A30; font-family: Amsterdam One; font-size: 1.8vmax; margin-left: -43%; margin-right: 250px;
+ color: #050A30; font-size: 1.8vmax; margin-left: -43%; margin-right: 250px;
 }
 .logo img {
   max-width: 50%;
   height: auto;
   margin-left: -5%;
 }
+.logo2 img{
+  max-width: 80%;
+  margin-left: -100%; 
+  justify-content: left;
+}
+
 .dark-mode-toggle {
   display: flex;
   align-items: center;
+  margin-left: -20%;
 }
 .dark-mode-toggle input {
   margin-right: 5px;
@@ -64,7 +71,7 @@ color: #cae8ff;
   white-space: nowrap;
 } */
 
-button:active,
+/* button:active,
 button:hover {
 outline: 0;
 }
@@ -80,7 +87,7 @@ background: none;
 button:active {
 transform: scale(0.9);
 }
-
+ */
 /* navbar */
 .topnav {
     overflow: hidden;
@@ -121,32 +128,44 @@ padding: 20px;
 }
 .about-section {
 margin-right: 25%;
-margin-bottom: 30px;
+margin-bottom: 15px;
 background-color: #050A30;
-padding: 20px;
+padding: 10px;
 border-radius: 8px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .about-section h2 {
-  font-size:30px;
+ font-size: 2.79vmax; margin-left: 4%;
 }
 .about-section p {
-  font-size:20px; font-weight: 500;
+  font-size:1.75vmax; font-weight: 550; margin-left: 2%;
 }
-
 .about-section2 {
 margin-left: 25%;
-margin-bottom: 30px;
+margin-bottom: 15px;
 background-color: #050A30;
-padding: 20px;
+padding: 10px;
 border-radius: 8px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .about-section2 h2{
-  font-size: 30px;
+  font-size: 2.79vmax; margin-left: 4%;
 }
 .about-section2 p{
-  font-size: 20px; font-weight: 500;
+  font-size:1.75vmax; font-weight: 550; margin-left: 2%;
+}
+.about-section3{
+  margin-bottom: 15px;
+  background-color: #8e0b0b;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-section3 h1{
+  font-size: 2.79vmax; color: #fff;
+}
+.about-section3 p2{
+  font-size:1.75vmax; font-weight: 550; margin-left: 2%; color: #ffffff;
 }
 h2 {
 color: #cae8ff;
@@ -158,6 +177,7 @@ color: #cae8ff;
 .dark-mode .about-section {background-color: #cae8ff;} .dark-mode .about-section2{background-color: #cae8ff;}
 
 /* 2023 Board */
+
 button2{
 position: fixed;
 bottom: 20px;
@@ -632,6 +652,12 @@ footer{
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 650px) {
+  .logo2 img{
+    max-width: 105%;
+    margin-left: -100%;
+    margin-top: 20px; 
+  }  
+
   .container {
     flex-direction: row;
   }
@@ -650,6 +676,9 @@ footer{
     font-size: 1.35em; 
   }
   .container2 p{
+    font-size: 1em; 
+  }
+  .container2 p2{
     font-size: 1em; 
   }
   .tnav {
